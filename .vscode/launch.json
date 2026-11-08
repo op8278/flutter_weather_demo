@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "iOS Simulator (debug)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "flutterMode": "debug",
+      "deviceId": "B318929D-5710-47EE-B310-70C1AC4E462E",
+      "toolArgs": [
+        "--host-vmservice-port=18188",
+        "--dds-port=18189",
+        "--disable-service-auth-codes"
+      ]
+    },
+    {
+      "name": "iOS Simulator (attach)",
+      "type": "dart",
+      "request": "attach",
+      "program": "lib/main.dart",
+      "deviceId": "B318929D-5710-47EE-B310-70C1AC4E462E",
+      "vmServiceUri": "http://127.0.0.1:18189/"
+    }
+  ]
+}
